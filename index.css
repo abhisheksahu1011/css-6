@@ -1,0 +1,222 @@
+body{
+  background-image: url(./shara\ desert.jpg);
+  background-size: cover;
+  
+}
+nav
+{
+  display: flex;
+  justify-content: space-between;
+}
+.logo
+{
+  height: 50px;
+  margin: 30px;
+  left: 50px;
+  position: absolute;
+}
+span
+{
+  font-size: larger;
+  color: white;
+}
+.home{
+  position: relative;
+  right: 520px;
+  top: 20px;
+}
+.vision{
+  position: relative;
+  right: 420px;
+  top: 20px;
+}
+.about{
+  position: relative;
+  right: 320px;
+  top: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+.bar
+{
+  position: relative;
+  right: 90px;
+  top: 12px;
+  cursor: pointer;
+}
+.container
+{
+display: grid;
+grid-template-columns: 2fr 1fr;
+padding: 1rem;
+}
+.sahara{
+  font-size: 90px;
+  display: grid;
+  position: absolute;
+  top: 190px;
+  left: 50px;
+  color: white;
+}
+.lorem{
+  display: grid;
+  position: absolute;
+  top: 390px;
+  left: 50px;
+  color: white;
+}
+.explore{
+  display: inline-block;
+  position: absolute;
+  top: 490px;
+  left: 50px;
+  background-color: white;
+  width: 150px;
+  height: 25px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 50x 5px 50px;
+  font-weight:900;
+  border-color: white;
+}
+
+
+.container2 {
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  gap:30px;
+  margin-left:20px ;
+
+}
+
+.box {
+  margin: 20px;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.box:hover {
+  transform:translateY(-12px);
+ 
+}
+
+.box h3 {
+  position: relative;
+  color: white;
+}
+
+.lo {
+  color: white;
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px 20px 0px 15px;
+  line-height: 20px;
+}
+
+.one {
+  padding-left: 5px;
+  width: 200px;
+  height: 200px;
+  background-image: url(./4.png);
+  background-size: cover;
+  
+}
+.two {
+  padding-left: 5px;
+  width: 200px;
+  height: 200px;
+  background-image: url(./pic\ 1.png);
+  background-size: cover;
+  
+}
+.three {
+  padding-left: 5px;
+  width: 200px;
+  height: 200px;
+  background-image: url(./pic\ 2.png);
+  background-size: cover;
+  
+}
+.four {
+  padding-left: 5px;
+  width: 200px;
+  height: 200px;
+  background-image: url(./pic\ 3.png);
+  background-size: cover;
+}
+
+.explore:hover{
+  height: 28px;
+}
+
+@media screen and (min-width:450px) and (max-width:900px){
+  .logo{
+    left: 40px;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 1fr;
+  }
+ .desert{
+  padding: 0px 0px 0px 70px;
+ }
+ .sahara{
+   margin-top: 20px;
+   font-size: 50px;
+ }
+ .container2{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ .box{
+  height: 225px;
+  width: 500px;
+  background-position-y: -170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+@media screen and (min-width:300px) and (max-width:400px) {
+  body{
+      padding-left : 30px;
+  }
+  .head{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 3fr 1fr;
+      float: right;
+  }
+  .logo{
+      left: -10px;
+      top: -15px;
+  }
+  .h{
+      margin: 0px;
+  }
+  .container{
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  .desert{
+      padding: 0px;
+  }
+  .sahara{
+      margin-top: 70px;
+      font-size: 40px;
+  }
+  .container2{
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  .box{
+    height: 225px;
+    padding: auto;
+  }
+}
